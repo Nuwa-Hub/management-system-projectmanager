@@ -1,0 +1,4 @@
+.messagetext{
+    display: flex;
+    flex-direction: column;
+}

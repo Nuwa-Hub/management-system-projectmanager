@@ -1,0 +1,107 @@
+.todo-container {
+  width: 100%;
+  margin: 0em;
+  padding: 0px 0px;
+  color: rgb(0, 0, 0);
+}
+.todo-tasksholder {
+  height: 550px;
+  margin: 0px;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.todo-tasksholder::-webkit-scrollbar {
+  width: 8px;
+  background: rgb(255, 255, 255);
+}
+.todo-tasksholder::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.todo-task {
+  padding: 0.5em;
+  margin: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(0, 0, 0) !important;
+}
+
+.ttexwrap {
+  background-color:  #e6eaea;
+  padding: 5px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+}
+.todo-deleteiconwrap{
+  opacity: 0;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  cursor: pointer
+}
+.todo-deleteiconwrap:hover{
+  opacity: 1;
+}
+
+.ticonwrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.todo-task .ttext {
+  font-weight: 500 !important;
+  font-size: 13px !important;
+}
+.task button {
+  background: rgb(12, 124, 251);
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+
+.todo-header {
+  margin: 0.1em;
+  font-size: 1.5em;
+  text-align: center;
+}
+.create-todo {
+  position: relative;
+}
+.create-todo input[type="text"] {
+  position: sticky;
+  margin: 5px;
+  width: 330px;
+  outline: none;
+  border: none;
+  border-bottom: 1px black solid;
+  padding: 0.7em;
+  font-size: 13px;
+}
+.ttextwraper{
+  display: flex;
+  flex-direction: column;
+}
+.ttexttimeago{
+  font-size: 10px;
+}

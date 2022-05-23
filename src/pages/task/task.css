@@ -1,0 +1,93 @@
+.task{
+    flex: 4;
+}
+.task-wapper{
+    display: flex;
+}
+.taskInfo{
+    flex: 1;
+}
+.massages-container{
+    flex: 3;
+}
+.taskdivider{
+  margin-bottom: 10px;
+}
+.taskShow{
+  margin-top: 10px;
+}
+.userShowTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .taskShowImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .userShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .taskShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+  .taskShowtaskname {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .taskShowtaskTitle {
+    font-weight: 300;
+  }
+  .userShowtaskname {
+    font-weight: 600;
+  }
+  
+  .userShowtaskTitle {
+    font-weight: 300;
+  }
+  .taskShowBottom{
+      margin-top: 20px;
+  }
+  
+  .taskShowTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+  }
+  
+  .taskShowInfo{
+      display: flex;
+      align-items: center;
+      margin: 20px 0px;
+      color: #444;
+  }
+  
+  .taskShowIcon{
+      font-size: 16px !important;
+  }
+  
+  .taskShowInfoTitle{
+      margin-left: 10px;
+  }
+  .taskaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+}
+.taskediticon{
+    color: rgb(254, 153, 153);
+    border: 1px solid rgb(255, 0, 0);
+    cursor: pointer;
+    margin-right: 20px;
+}
+.taskediticon:hover{
+    color: rgb(255, 0, 0);
+}
